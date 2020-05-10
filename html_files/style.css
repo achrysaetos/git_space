@@ -31,13 +31,22 @@ li{
     cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
 .intro h1{
     color: rgb(255, 110, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     font-weight: 300;
     margin-top: 0px;
-    padding-top: 250px;
+    padding-top: 300px;
     padding-left: 50px;
 }
 
@@ -50,19 +59,20 @@ li{
     max-width: 500px;
 }
 
-.modal{
-    margin-top: -300px;
-    margin-right: 50px;
-    border: 2px solid black;
-    height: 500px;
-    width: 500px;
-}
-
 .jumbotron{
     height: 800px;
     background-image: url(cheryl.jpg);
     background-size: cover;
 }
+
+
+
+
+
+
+
+
+
 
 .login{
     border: 0;
@@ -88,6 +98,7 @@ li{
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
 .signup{
     border: 0;
     line-height: 2.5;
@@ -165,3 +176,99 @@ li{
 
 
 
+
+
+
+
+
+
+
+form{
+    margin-top: -350px;
+    margin-right: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 575px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    padding: 50px;
+}
+
+.modalhead{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 110, 0);
+}
+
+.modaltxt{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.modaltxtlower{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.next{
+    margin-top: 10px;
+    border: 0;
+    line-height: 2.5;
+    padding: 5px 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    background-color: darkorange;
+    outline: 0 none;
+}
+.next:hover {
+    background-color: rgb(255, 110, 0);
+    cursor: pointer;
+}
+.next:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.create{
+    margin-top: 20px;
+    border: 0;
+    line-height: 2.5;
+    padding: 5px 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: darkorange;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid darkorange;
+    outline: 0 none;
+}
+.create:hover {
+    color: rgb(255, 110, 0);
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 12px 24px;
+    margin: 12px 0;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: 0 none;
+}

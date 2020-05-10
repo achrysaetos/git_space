@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Website Template</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
 
-    </head>
+<head>
+    <title>Website Template</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
 
 
-    <body>
-        <header>
-            <ul>
-                <li id="brand" style="float:left">ACHRYSAETOS</li>
-                <li class="nav">Home</li>
-                <li class="nav">Products</li>
-                <li class="nav">Pricing</li>
-                <li class="nav">About</li>
-                <li class="nav">Contact Us</li>
-                <li class="signup" style="float:right">Sign Up</li>
-                <li class="login" style="float:right">Log In</li>
-            </ul>
-        </header>
-        
-        <main>
-            <div class="jumbotron">
-                <div class="intro">
-                    <h1>Short Catchphrase Here.</h1>
-                    <h2>Longer informational blurb that expands on the catchphrase above.</h2>
-                    <button class="learnmore" type="button">Learn more</button>
-                    <button class="getstarted" type="button">Get started</button>
-                </div>
-                <div class="modal" style="float:right">
-                    <h1>Login Modal</h1>
-                </div>
+<body>
+    <header>
+        <ul>
+            <li id="brand" style="float:left">ACHRYSAETOS</li>
+            <li class="nav">Home</li>
+            <li class="nav">Products</li>
+            <li class="nav">Pricing</li>
+            <li class="nav">About</li>
+            <li class="nav">Contact Us</li>
+            <li class="signup" style="float:right">Sign Up</li>
+            <li class="login" style="float:right">Log In</li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <div class="intro">
+                <h1>Short Catchphrase Here.</h1>
+                <h2>Longer informational blurb that expands on the catchphrase above.</h2>
+                <button class="learnmore" type="button">Learn more</button>
+                <button class="getstarted" type="button">Get started</button>
             </div>
-        </main>
 
-        <div>
+            <form action="" method="post" style="float:right">
+                <div class="modalhead">
+                    Sign in to ACHRYSAETOS
+                </div>
 
+                <div class="container">
+                    <label class="modaltxt" for="uname">Username</label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label class="modaltxt" for="pword">Password</label>
+                    <input type="password" placeholder="Enter Password" name="pword" required>
+
+                    <div style="text-align: center;">
+                        <button class="next">Next</button>
+                        <button class="create">Create an account</button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <label class="modaltxtlower"><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+                    <span class="modaltxtlower" style="float:right"><a href="">Forgot password?</a></span>
+                </div>
+            </form>
         </div>
 
+        
+    </main>
 
-    </body>
-    
+    <div>
+
+    </div>
+
+
+</body>
+
 </html>
