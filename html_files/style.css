@@ -1,4 +1,5 @@
 header{
+    margin-top: -8px;
     background-color: rgb(48, 48, 48);
     position: fixed;
     width: 99%;
@@ -61,7 +62,7 @@ li{
 
 .jumbotron{
     height: 800px;
-    background-image: url(cheryl.jpg);
+    background-image: url(cheryl_background.jpg);
     background-size: cover;
 }
 
@@ -271,4 +272,37 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
     border-radius: 10px;
     outline: 0 none;
+}
+
+
+
+
+
+
+
+
+
+.sponsors{
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+}
+.carousel{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.carouselitem{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.carouselimg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
