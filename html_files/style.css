@@ -51,10 +51,12 @@ li{
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
     outline: 0 none;
 }
+
 .login:hover {
     background-color: gray;
     cursor: pointer;
 }
+
 .login:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
@@ -78,10 +80,12 @@ li{
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
     outline: 0 none;
 }
+
 .signup:hover {
     background-color: rgb(255, 110, 0);
     cursor: pointer;
 }
+
 .signup:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
@@ -97,15 +101,28 @@ Front Page Heading--------------------------------------------------------------
     margin-right: 50px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
 }
+
+@media only screen and (max-width: 900px){
+    .intro{
+        display: none;
+    }
+    .loginmodal{
+        max-width: 800px;
+    }
+}
+
+.intro{
+    margin-top: 300px;
+    max-width: 500px;
+}
+
 .intro h1{
     color: rgb(255, 110, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     font-weight: 300;
     margin-top: 0px;
-    padding-top: 300px;
 }
 
 .intro h2{
@@ -113,13 +130,13 @@ Front Page Heading--------------------------------------------------------------
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     margin-top: 0px;
-    max-width: 500px;
 }
 
 .jumbotron{
     height: 800px;
     background-image: url(cheryl_background.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .learnmore{
@@ -136,10 +153,12 @@ Front Page Heading--------------------------------------------------------------
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
     outline: 0 none;
 }
+
 .learnmore:hover {
     background-color: gray;
     cursor: pointer;
 }
+
 .learnmore:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
@@ -160,10 +179,12 @@ Front Page Heading--------------------------------------------------------------
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
     outline: 0 none;
 }
+
 .getstarted:hover {
     background-color: rgb(255, 110, 0);
     cursor: pointer;
 }
+
 .getstarted:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
@@ -179,7 +200,8 @@ form{
     border: 2px solid black;
     border-radius: 20px;
     height: 575px;
-    width: 450px;
+    min-width: 450px;
+    max-width: 450px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -222,10 +244,12 @@ form{
     background-color: darkorange;
     outline: 0 none;
 }
+
 .next:hover {
     background-color: rgb(255, 110, 0);
     cursor: pointer;
 }
+
 .next:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
@@ -246,6 +270,7 @@ form{
     border: 1px solid darkorange;
     outline: 0 none;
 }
+
 .create:hover {
     color: rgb(255, 80, 0);
     cursor: pointer;
@@ -308,7 +333,6 @@ Banners-------------------------------------------------------------------------
 */
 .sponsors{
     width: 100%;
-    height: 100px;
     background-color: lightgray;
     text-align: center;
     margin-top: -20px;
@@ -317,18 +341,20 @@ Banners-------------------------------------------------------------------------
     font-weight: normal;
     color: rgb(255, 110, 0);
 }
+
 #sponsornames{
     color: black;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .testimonials{
     width: 100%;
-    height: 300px;
     background-color: lightgray;
     text-align: center;
     margin-bottom: 50px;
 }
+
 .testimonials h1{
     padding-top: 10px;
     font-family: cursive;
@@ -336,15 +362,18 @@ Banners-------------------------------------------------------------------------
     font-weight: normal;
     color: rgb(255, 110, 0);
 }
+
 .testimonials h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
 }
+
 .testimonials h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     font-style: italic;
 }
+
 .testimonials h4{
     float: right;
     margin-top: 0;
@@ -357,16 +386,20 @@ Banners-------------------------------------------------------------------------
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
+    padding-bottom: 20px;
 }
+
 .userreview{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .reviewtxt{
     max-width: 500px;
     text-align: left;
 }
+
 .testimonials img{
     border-radius: 50%;
     width: 150px;
@@ -387,6 +420,7 @@ Banners-------------------------------------------------------------------------
     border: 2px solid darkorange;
     outline: 0 none;
 }
+
 .revbutton:hover{
     color: rgb(255, 80, 0);
     cursor: pointer;
@@ -441,7 +475,6 @@ Footer--------------------------------------------------------------------------
 */
 footer{
     width: 100%;
-    height: 300px;
     background-color: rgb(48, 48, 48);
     text-align: left;
     margin-top: 50px;
@@ -486,12 +519,14 @@ footer h6{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 12px;
+    padding-bottom: 30px;
 }
 
 a{
     color: darkgray;
     text-decoration: none;
 }
+
 a:hover{
     color: darkorange;
 }
