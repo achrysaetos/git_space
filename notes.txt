@@ -1,0 +1,17 @@
+
+Express 101, from The Odin Project
+----------------------------------
+Middleware is just a plain JavaScript function that Express will call for you when it receives a network request 
+before it fires off a response.
+
+Three middleware function arguments are: req, res, and next. If you are writing or using middleware that does not send
+a response back to the users client then you MUST call the next function at the end of your middleware function.
+The next function will just tell express to move to the next middleware in the stack, but if you forget to call it then your
+app will pause and nothing will happen.
+
+app.use(middleware_name) tells Express you want to use the middleware function you just wrote. Order matters! Middleware 
+functions will always run in the order that they are instantiated using app.use().
+
+You might want to add a .gitignore file to make sure you do not upload your node_modules folder to GitHub. This directory is 
+quite large, and anyone who wants to clone the project can just run "npm install" to get all these dependencies anyway.
+
