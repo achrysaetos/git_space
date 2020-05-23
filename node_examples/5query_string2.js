@@ -1,3 +1,5 @@
+
+//more into query strings and applications
 var http=require("http");
 var url=require("url");
 

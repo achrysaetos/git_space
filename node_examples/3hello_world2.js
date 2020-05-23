@@ -1,5 +1,5 @@
 
-//run with node hello_world.js
+//barebones server creation and usage
 var http = require('http');// http is just one of the built-in node modules we can use
 
 //create the server object

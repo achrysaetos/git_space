@@ -1,4 +1,5 @@
 
+//using query strings to change content
 var http = require('http');
 
 //create the server object
