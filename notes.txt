@@ -15,3 +15,13 @@ functions will always run in the order that they are instantiated using app.use(
 You might want to add a .gitignore file to make sure you do not upload your node_modules folder to GitHub. This directory is 
 quite large, and anyone who wants to clone the project can just run "npm install" to get all these dependencies anyway.
 
+CRUD and MVC, from The Odin Project
+-----------------------------------
+CRUD stands for create, read, update, and delete entries in the database.
+Roughly, create corresponds to POST, read correlates to GET, update correlates to PUT, and delete corresponds to DELETE.
+
+MVC stands for model, view, and controller, and refers to the architecture of your code.
+Models are the basic building blocks of your database. They define the types of information that get used by your views
+and controllers.
+Views are the components that generate the UI for your application.
+Controllers are the components that decide what view to display and what information needs to be put in.
