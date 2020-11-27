@@ -1,4 +1,4 @@
 # Git Space
-Just some git space... let's learn some node and express!
+Just some random git space... let's learn some node and express!
 
-See express_examples and node_examples.
+*See express_examples and node_examples.*
